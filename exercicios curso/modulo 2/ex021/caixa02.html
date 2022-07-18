@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: whitesmoke;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 7px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        header > h1 {
+            display: inline-block;
+            background-color: azure;
+            padding: 2px;
+        }
+
+        h1 {
+            box-shadow: 1px 2px 5px 0.5px rgba(0, 0, 0, 0.555);
+        }
+
+        nav {
+            text-align: left;
+            background-color: rgb(111, 113, 114);
+            padding: 2px;
+            box-shadow: 3px 2px 6px 0.5px rgba(0, 0, 0, 0.541);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(231, 231, 240);
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(2, 2, 223);
+        }
+
+        nav:active > a {
+            color: rgb(75, 75, 255);
+        }
+
+        main {
+            background-color: white;
+            padding: 7px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: 3px 2px 7px 1px rgba(0, 0, 0, 0.575);
+        }
+
+        article {
+            background-color: rgb(221, 221, 221);
+        }
+
+        article > aside {
+            text-align: center;
+            background-color: lightgray;
+        }
+
+        footer {
+            background-color: darkgrey;
+            color: azure;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas Tecnoçogia</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eligendi, molestias minus numquam perferendis unde et veniam, culpa tenetur debitis magni, nobis autem! Assumenda praesentium deleniti amet id itaque obcaecati!
+               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste aliquid repudiandae et atque? Soluta veniam culpa officiis molestiae cum, nulla rerum atque vitae, expedita possimus est illo quia quo repellendus.
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laborum dolor cupiditate sed, assumenda dolores, reiciendis quibusdam vitae vero non odit architecto tenetur placeat fugiat, omnis rerum repellat iusto. Eligendi.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis id consequuntur eum facere incidunt optio debitis cumque est quasi explicabo. Reprehenderit culpa sapiente temporibus et velit illo ea neque voluptatum?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, non nulla beatae nostrum soluta maiores ullam eligendi quasi? Ex nemo repellendus distinctio voluptatem quas non quidem voluptas delectus iste accusantium?
+                </p>
+                <aside>
+                   <p>Artigo escrito por <q>vozes da minha cabeçã</q>.</p> 
+                </aside>
+            </article>
+
+            <article>
+
+
+            </article>
+        </section>
+    </main>
+    <footer id="final">
+        <p>Desensvolvido por Lucca samuel</p>
+    </footer>
+</body>
+</html>

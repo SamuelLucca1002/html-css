@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>2º semana</title>
+</head>
+<body>
+    <main>
+        <h1>Segunda semana</h1>
+        <h2>Tipos de listas</h2>
+        <h3>Listas ordenadas</h3>
+        <p>São Listas onde a ordem dos itens interferem e fazem diferença, para esse tipo de lista utilizamos a tag <br>&lt;ol&gt; e dentro desta, teremos a tag &lt;li&gt; que no caso são os itens da nossa lista;<strong>ex:</strong><br>
+            <code>&lt;ol type=""&gt;<br>|&lt;li&gt;Item nº1&lt;/li&gt;<br>|&lt;li&gt;item nº2&lt;/li&gt;<br>&lt;/ol&gt;
+            </code>
+            <br>O type="", que foi adicionado serve para definir o tipo de numeração dos itens da lista</p>
+        <ol type="I">
+            <li>item nº1</li>
+            <li>item nº2</li>
+        </ol>
+        <hr>
+        <h3>Listas não ordenadas</h3>
+        <p>São aqueles tipos de listas que a ordem dos iyens é irrelevante, como por exemplo uma lista de compras, esse tipo de listas se dá pela tag &lt;ul&gt;,<br>porém ainda continua a utilizar a tag &lt;li&gt; para os itens;<strong>ex:</strong><br><code>&lt;ul type=""&gt;<br>|&lt;li&gt;Item nº1&lt;/li&gt;<br>|&lt;li&gt;item nº2&lt;/li&gt;<br>&lt;/ul&gt;</code><br>O type="", que foi adicionado serve para definir o tipo de pontuação dos itens da lista</p>
+        <ul type="square">
+            <li>item nº1</li>
+            <li>item nº2</li>
+        </ul>
+        <hr>
+        <h3>Lista de definições</h3>
+        <p>São Listas que servem para adicionar palavra que você pretende explicar / definir, esse tipo de lista se dá pela tag &lt;dl&gt;,<br>que acompanha as tags &lt;dt&gt;<del>Termo</del>&lt;/dt&gt; e &lt;dd&gt;<del>Definição</del>&lt;/dd&gt;; <strong>ex:</strong><br><code>&lt;dl&gt;<br>|&lt;dt&gt;Casa&lt;/dt&gt;<br>|&lt;dd&gt;moradia, lar, residencia etc...&lt;/dd&gt;<br>&lt;/dl&gt;</code></p>
+        <dl>
+            <dt>Casa</dt>
+            <dd>moradia, lar, residencia etc...</dd>
+        </dl>
+        <hr>
+        <h1>Links</h1>
+        <h2>Links internos</h2>
+        <p>Dentro de links temos os limks internos, que são utilizados para a navegação dentro do seu próprio site, entre as suas páginas, para isso utilizamosa tag &lt;a&gt;<br><strong>ex:</strong><br><code>&lt;a href="Local do arquivo da página" rel="next" target="_self"&gt; nome do link &lt;/a&gt;</code></p>
+        <ul>
+            <li>href="" &rightarrow; Local em que o arquivo da prócima página está</li>
+            <li>rel="next" &rightarrow; Este irá indicar o tipo de link se sera de avanço ou retorno sendo: next de <ins>avanço</ins> e prev de <ins>retorno</ins></li>
+            <li>target="_self" &rightarrow; Este indica se o arquivo é do próprio site ou de outro, para links internos iremos utilizar o <mark>_self</mark>
+            </li>
+        </ul>
+        <small>
+            <p>&rightarrow; lembro que quando fazemos im link de retorno a página anterior caso ele esteja em outro pasta(que deve estar dentro da pasta principal do arquivo), utilizamos o parâmetro href do seguinte jeito:<br>href="<strong>../</strong>nome do arquivo"; sendo esse ../ utilizado para retornar uma pasta.</p>
+        </small>
+        <h2>Links externos</h2>
+        <p>Esse tipo de link serve para quendo quisermos redirecionar o usuário a outro site que não o nosso, ainda se utilizando da tag &lt;a&gt;, porém com alterações nos parâmetros <br><strong>ex:</strong><br><code>&lt;a href="URL completa do site" target="_blank" rel="external"&gt; nome do link &lt;/a&gt;</code></p>
+        <ul>
+            <li>href="" &rightarrow; URL completa do site que deseja ir.</li>
+            <li>rel="external" &rightarrow; Este irá indicar que o link será de um site exterior / diferente.</li>
+            <li>target="_blank" &rightarrow; Este indica se o arquivo é do próprio site ou de outro, para links externos iremos utilizar o <mark>_blank</mark>
+            </li>
+        </ul>
+        <h2>Links para download</h2>
+        <p>São links usados para fazer o download de um arquivo que foi anexado a esse link.<br><code>&lt;a href="local do arquivo" download="nome completo do arquivo" type="aplicação para o tipo de arquivo"&gt; nome do link &lt;/a&gt;</code></p>
+        <ul>
+            <li>href="local do arquivo" &rightarrow; selecionar o arquivo dentro da pasta.</li>
+                <li>download="nome completo do arquivo" &rightarrow; Neste deve ser colocado o nome completodo arquivo como está na salvo.</li>
+                <li>type="aplicação para o tipo de arquivo" &rightarrow; Deve ser colocado a aplicação para o tipo do arqui por exemplo "application/pdf", utiliado para arquivos pdf.
+                </li>
+        </ul>
+        <small><p>Site para achar as aplicações dos tipos de arquivo <a id="iana" class="colorido" href="https://www.iana.org/assignments/media-types/media-types.xhtml" rel="external" target="_blank">iana.org</a></p></small>
+        <hr>
+    </main>
+    <a href="../pag001/index.html" rel="prev" target="_self"><img src="imagens/voltar.png" alt="Voltar"></a>
+</body>
+</html>

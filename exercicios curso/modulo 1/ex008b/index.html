@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html.ico.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+    <style>
+        mark{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <p>O comando <code>document.getElementById('test')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+         num = int(input('Digite um número'))
+         if num % 2==0:
+             print(f'O número {num} é par')
+        else:
+            print(f'O número{num} é ÍMPAR')
+        Print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>segundo Jeff Noble, no seu livro <mark>HTML para Leigos</mark>:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html+xhtml+e+css+para+leigos&printsec=frontcover">
+        A diferença entre elementos inlines e um bloco de texto é importante. Os elememntos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperTexte Markup Language"><mark style="background-color: limegreen;">HTML</mark></abbr> e <abbr title="Cascading Style Sheets"><mark style="background-color: rgba(255, 255, 0, 0.863);">CSS</mark></abbr>. Estou adorando!</p><!-- a tag "abbr" é utilizada para que quando você tenha um sigla ou abreviação e passe o mouse por cima desta mostre o significado -->
+    <h2>Texto invertido</h2>
+    <P><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></P>
+</body>
+</html>

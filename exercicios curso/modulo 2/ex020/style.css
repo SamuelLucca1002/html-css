@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+.d1 {
+    display: inline-block;
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+.d1:hover {
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 194);
+}
+
+a:visited {
+    color: rgb(2, 50, 95);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(30, 182, 202);
+}
+
+a:active {
+    color: cadetblue;
+}
+
+a::before {
+    content: '⇒';
+}
+
+   #acho > p {
+    display: none;
+}
+
+   #acho:hover > p {
+    display: block;
+    color: white;
+    background-color: brown;
+    width: 250px;
+}
+
+   #acho:hover {
+    color: red;
+}

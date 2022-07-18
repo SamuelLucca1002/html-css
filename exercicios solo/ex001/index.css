@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Edu+SA+Beginner:wght@400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+mark { 
+    background-color: rgba(7, 179, 179, 0.37);
+}
+
+body {
+    font-family: 'Arima', cursive;
+    background-image: linear-gradient(to bottom, #000022, #001242);
+}
+
+hr {
+    width: auto;
+}
+
+main {
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 7px #08a9df;
+    border-radius: 13px;
+    margin: auto;
+    width: 1200px;
+    padding: 5px;
+}
+
+h1 {
+    color: #054546;
+    font: normal 2.5em 'Edu SA Beginner', cursive, serif;
+    text-shadow: 1px 2px 2px #005E7C;
+    text-align: center;
+}
+
+h2 {
+    color: #1049c2;
+    font: normal 1.5em 'Work Sans', sans-serif;
+    text-shadow: 1px 1px 1px #0c2e77;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: auto;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+#iana::before {
+    content: '⇒';
+}
+
+.centro {
+    text-align: center;
+}
+
+.colorido {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.colorido:visited {
+    color: rgb(38, 109, 156);
+    font-weight: lighter;
+}
+
+.colorido:hover {
+    color: rgb(0, 0, 197);
+    text-decoration: underline;
+}
+
+.colorido:active {
+    color: rgb(86, 65, 207);
+}
+
+#html {
+    text-align: center;
+}
+
+.menor {
+    margin-top: 0em;
+}
+
+/*
+Página 003
+*/
+
+.começo {
+   margin-left: 5px;
+}
+
+.conteudo-principal-listas-itens {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#top{
+    border-top: 0.5px solid black;
+    padding: 5px;
+}
+
+.lista-principal-paragrafo {
+    text-align: center;
+}
+
+.lista-principal-paragrafo {
+    text-align: center;
+}
+
+.total-lista-secundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lista-secundaria-paragrafo {
+    text-align: center;
+}
+
+.lista-secundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#parte-2-subtitulo {
+    text-align: center;
+    font-size: 22px;
+    border-top: 0.5px solid black;
+    padding-top: 5px;
+}
+
+.div-link-final {
+    margin-left: 10px;
+}
